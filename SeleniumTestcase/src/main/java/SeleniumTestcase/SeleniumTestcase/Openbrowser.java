@@ -23,6 +23,5 @@ public class Openbrowser
         driver.findElement(By.name("q")).submit();
         driver.quit();
         extent.flush();
-        driver.findElement(By.name("q")).submit();
     }
 }
